@@ -1,14 +1,59 @@
-# Default starter for Gridsome
+# SWC XML Parser
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This is the project you get when you run `gridsome create new-project`.
+This is a web app to parse XML files obtained through the [Star Wars Combine](http://www.swcombine.com)'s system scan. Allowing for human-friendly visualization for Intel gathering.
 
-### 1. Install Gridsome CLI tool if you don't have
 
-`npm install --global @gridsome/cli`
+### Built With
 
-### 2. Create a Gridsome project
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+* [Gridsome](https://gridsome.org/)
+* [VueJS](https://vuejs.org/)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+Make sure you have the latest version of [NodeJS](https://nodejs.org/)
+
+  ```sh
+  npm install npm@latest -g
+  ```
+
+Then, if you haven't already, install Gridsome globally, to be able to use the build and develop scripts.
+
+   ```sh
+   npm install --global @gridsome/cli
+   ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/AndrykVP/SWC-XML-Parser.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
