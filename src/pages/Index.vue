@@ -1,33 +1,37 @@
 <template>
-  <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
-  </Layout>
+   <Layout>
+      <div>
+         <div class="container" v-if="file != null">
+            <div class="section">
+               <Table />
+            </div>
+         </div>
+         <div class="hero is-fullheight-with-navbar" v-else>
+            <div class="hero-body columns is-vcentered is-centered is-mobile">
+               <div class="column is-narrow">
+                  <Uploader />
+               </div>
+            </div>
+         </div>
+      </div>
+   </Layout>
 </template>
 
 <script>
+import Uploader from '~/components/Uploader.vue'
+import Table from '~/components/Table.vue'
+
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
+   metaInfo: {
+      title: 'Index'
+   },
+   components: {
+      Uploader, Table
+   },
+   computed: {
+      file() {
+         return this.$store.state.file
+      },
+   }
 }
 </script>
-
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
