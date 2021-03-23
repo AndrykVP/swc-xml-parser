@@ -1,5 +1,5 @@
 {
-  "name": "xml-parser",
+  "name": "swc-xml-parser",
   "version": "1.0.0",
   "author": "Andrés Velázquez <andriclucid@gmail.com>",
   "description": "An XML Parser for Star Wars Combine's system scans",
