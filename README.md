@@ -3,6 +3,7 @@
 ![Forks](https://img.shields.io/github/forks/andrykvp/swc-xml-parser?style=for-the-badge)
 ![Issue](https://img.shields.io/github/issues/andrykvp/swc-xml-parser?style=for-the-badge)
 ![License](https://img.shields.io/github/license/andrykvp/swc-xml-parser?style=for-the-badge)
+![Netlify](https://img.shields.io/netlify/51e10d9a-f4b4-4dc7-b8b5-63254983b149?style=for-the-badge)
 
 This is a web app to parse XML files obtained through the [Star Wars Combine](http://www.swcombine.com)'s system scan. Allowing for human-friendly visualization for Intel gathering.
 
