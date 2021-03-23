@@ -1,10 +1,8 @@
 # SWC XML Parser
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+![Contributors](https://img.shields.io/github/contributors/andrykvp/swc-xml-parser?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/andrykvp/swc-xml-parser?style=for-the-badge)
+![Issue](https://img.shields.io/github/issues/andrykvp/swc-xml-parser?style=for-the-badge)
+![License](https://img.shields.io/github/license/andrykvp/swc-xml-parser?style=for-the-badge)
 
 This is a web app to parse XML files obtained through the [Star Wars Combine](http://www.swcombine.com)'s system scan. Allowing for human-friendly visualization for Intel gathering.
 
